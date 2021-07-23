@@ -1,0 +1,183 @@
+body{
+    /* font-family : 'Raleway', sans-serif; */
+    font-family : 'Montserrat', sans-serif;    
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior : smooth;
+}
+
+.contact{
+    height : 1em;
+    width : 1em;
+}
+
+.home{
+    background-color :whitesmoke;
+    height : 100vh;   
+}
+
+.exp{
+    background-color : whitesmoke;
+    /* color : whitesmoke; */
+    min-height : 100vh;
+    padding : 15vh 0vh 0vh 0vh;
+}
+
+.exp title{
+    color : whitesmoke;
+}
+
+.project{
+    background-color :whitesmoke;
+    min-height : 100vh;   
+    padding : 15vh 0vh 0vh 0vh;
+}
+
+/* .project card-body{
+    background-color: aqua;
+} */
+
+.about{
+    background-color :whitesmoke;
+    height : 100vh;   
+}
+
+
+
+
+h1 {
+    font-size: 15vh;
+}
+
+h2{
+    font-size: 10vh;
+}
+
+h3{
+    font-size: 4vh;
+}
+.header-content{
+    text-align : center;
+    color : white;
+    padding : 12vh;
+}
+
+.header-content h1{
+    font-size : 10vh;
+    padding : 1vh;
+    display: inline-block;
+}
+
+.body-content{
+    position : left;
+    padding : 5vh;
+    display: inline-block;
+    z-index : -1;
+   
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.body-content:after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.pendaftaran{
+    position : center;
+    background-color : rgb(121, 98, 66);
+    padding : 2vh;
+    display: inline-flexbox;
+    z-index : -1;
+} 
+
+.pendaftaran h2{
+    color : white;
+    text-align : center;
+    padding : 20vh;
+    font-size : 7vh;
+}
+
+.streaming{
+    position : center;
+    background-color : rgb(231, 226, 219);
+    padding : 5vh;
+    display: inline-flexbox;
+    z-index : -1;
+} 
+
+
+.streaming h3{
+    text-align : center;
+    padding : 5vh;
+    font-size : 4vh;
+}
+
+.streaming h5{
+    text-align : center;
+    padding : 2vh;
+    font-size : 3vh;
+}
+
+.streaming a{
+    text-align: center;
+    padding: 7vh;
+    font-size: 8vh;
+}
+
+.navbar{
+    /* overflow: hidden; */
+    background-color: whitesmoke;
+    /* justify-content: left;
+    z-index : 1; */
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    font-size : 3vh;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(80, 24, 24);
+    transition : 0.25s;
+} 
+
+.navbar a:active {
+    background-color: rgb(80, 24, 24);
+    color: #ddd;
+    transition : 0.25s;
+}
+
+
+
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .body-content {
+    padding-top: 16vh;
+} */
