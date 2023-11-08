@@ -83,28 +83,18 @@ export default function Home() {
                         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
-                            <p className="text-base font-semibold leading-7 text-indigo-600">Halo! Ini aku, Andrian.</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Berenjana untuk membuat desain yang sederhana, berguna, dan efektif.</h1>
+                            <p className="text-base font-semibold leading-7 text-indigo-600">Hello, it's me, Andrian!</p>
+                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Passionate to create simply, useful, and effective designs.</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Seorang pemuda yang cinta dengan desain UI/UX. Saat ini, aku tinggal di Jakarta dan bekerja di <a href="https://moonlay.com" className="font-bold hover:italic">Moonlay Technologies</a> sebagai UI/UX Designer (#Moonlayers).
+                                A young man who love with UI/UX design. For now, I live in Jakarta and work at <a href="https://moonlay.com" className="font-bold hover:italic">Moonlay Technologies</a> as UI/UX Designer (#Moonlayers).
                             </p>
                             <p className="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-                                Seperti ucapan mantan <i>lead</i> saya, "Desain adalah improvement yang berkelanjutan. Terus berlatih dan bereksplorasi." Aku percaya bahwa eksplorasi dapat membawa kita pada sudut pandang yang lebih luas dan pengalaman yang lebih baik.
-                                Jadi, situs web ini akan menjadi pameran eksplorasi-eksplorasi desain aku berdasarkan permasalahan nyata yang aku hadapi.
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                        {/* <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-                        <div className="lg:pr-4">
-                            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-                            <p>
                                 As my former lead said, "Design is continous improvement. Keep practising and exploring." I believe that exploration will leads us to broader view and better experience.
                                 So, this website will be my showcase of design explorations based on real problems that I face everyday.
                             </p>
                             </div>
                         </div>
-                        </div> */}
+                        </div>
                         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                             <img
                                 className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
