@@ -8,7 +8,7 @@ import Experience from "./components/Experience"
 import Certificate from "./components/Certificate"
 import Contact from "./components/Contact"
 import Footer from './components/Footer';
-import { HashRouter as Router, Routes, Route}
+import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 export default function App() {
