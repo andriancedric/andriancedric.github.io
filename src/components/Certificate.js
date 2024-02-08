@@ -28,10 +28,11 @@ export default function Certificate() {
                         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
-                                <p className="text-base font-semibold leading-7 text-indigo-600">Sertifikat</p>
-                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Belajar dan mengajar. Menerima dan berbagi ilmu.</h1>
+                                <p className="text-base font-semibold leading-7 text-indigo-600">Certificate</p>
+                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Learn and teach. Knowledge is for everyone.</h1>
                                 <p className="mt-6 text-xl leading-8 text-gray-800">
                                 Dalam halaman ini, Anda dapat melihat beberapa sertifikat yang didapat, baik sehabis mengikuti magang, kelas, seminar, maupun menjadi pembicara dalam seminar.
+                                In this page, you will see my obtained certificates, i.e. professional, class, internship, or speaker certificates.
                                 </p>
                                 <p className="mt-6 max-w-xl text-base leading-7 text-gray-800 lg:max-w-lg">
                                     Portofolio dalam versi PDF dapat diunduh di sini.
