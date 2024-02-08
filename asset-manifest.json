@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ea04eb4.css",
+    "main.js": "/static/js/main.9803209f.js",
+    "static/js/787.bf90b066.chunk.js": "/static/js/787.bf90b066.chunk.js",
+    "static/media/Moonlay Website.png": "/static/media/Moonlay Website.9efb846875cf68a52093.png",
+    "static/media/Sports App.png": "/static/media/Sports App.219eea825392bd4eb405.png",
+    "static/media/JHTC.png": "/static/media/JHTC.370b8070c768c04e51da.png",
+    "static/media/TA2 1.png": "/static/media/TA2 1.1d1434e60dad3ded684a.png",
+    "static/media/TGHK.png": "/static/media/TGHK.f3d7c8eebd9013ccf731.png",
+    "static/media/Incodesia 1.png": "/static/media/Incodesia 1.913edd6b76819881ef50.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5ea04eb4.css.map": "/static/css/main.5ea04eb4.css.map",
+    "main.9803209f.js.map": "/static/js/main.9803209f.js.map",
+    "787.bf90b066.chunk.js.map": "/static/js/787.bf90b066.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea04eb4.css",
+    "static/js/main.9803209f.js"
+  ]
+}
