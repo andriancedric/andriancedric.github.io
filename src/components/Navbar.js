@@ -7,10 +7,10 @@ import React from "react";
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Portfolio', href: '#/portfolio' },
-    { name: 'Certificate', href: '#/certificate' },
-    { name: 'Experience', href: '#/experience' },
-    { name: 'Contact', href: '#/contact' },
+    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Certificate', href: '/certificate' },
+    { name: 'Experience', href: '/experience' },
+    { name: 'Contact', href: '/contact' },
 ]
 
 // import { ArrowRightIcon } from "@heroicons/react/solid";

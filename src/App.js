@@ -8,8 +8,8 @@ import Experience from "./components/Experience"
 import Certificate from "./components/Certificate"
 import Contact from "./components/Contact"
 import Footer from './components/Footer';
-import { HashRouter as Routes, Route}
-    from 'react-router-dom';
+import {Routes, Route } from "react-router-dom";
+
 
 export default function App() {
   return (
