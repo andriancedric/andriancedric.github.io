@@ -8,21 +8,18 @@ import Experience from "./components/Experience"
 import Certificate from "./components/Certificate"
 import Contact from "./components/Contact"
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route}
+import { HashRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 export default function App() {
   return (
-    <Router>
-    <Navbar />
-    <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/portfolio' element={<Portfolio/>} />
-        <Route path='/experience' element={<Experience/>} />
-        <Route path='/certificate' element={<Certificate/>} />
-        <Route path='/contact' element={<Contact/>} />
-    </Routes>
-    <Footer />
-    </Router>
+    <>
+    <Navbar /><Routes>
+      <Route exact path='/' element={<Home />} />
+      <Route path='/portfolio' element={<Portfolio />} />
+      <Route path='/experience' element={<Experience />} />
+      <Route path='/certificate' element={<Certificate />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes><Footer /></>
   );
 }

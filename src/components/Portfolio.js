@@ -30,12 +30,12 @@ export default function Portfolio() {
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
                                 <p className="text-base font-semibold leading-7 text-indigo-600">Portfolio</p>
-                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sekumpulan desain-desain. Itulah portofolio.</h1>
+                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A collection of designs. That is portfolio</h1>
                                 <p className="mt-6 text-xl leading-8 text-gray-800">
-                                Selamat datang di koleksi eksplorasi desain saya. Dibuat berdasarkan permasalahan yang nyata, desain-desain ini ditujukan agar dapat cocok dan membantu menyelesaikan masalah yang ada.
+                                Welcome to my collection of design exploration. Start from real problems, these solutions are designed for solved the problems and enhance its UI/UX.
                                 </p>
                                 <p className="mt-6 max-w-xl text-base leading-7 text-gray-800 lg:max-w-lg">
-                                    Portofolio dalam versi PDF dapat diunduh di sini.
+                                    PDF version of my portfolio can be downloaded here.
                                 </p>
 
                             </div>
@@ -44,7 +44,7 @@ export default function Portfolio() {
                                     href="#"
                                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                     >
-                                    Unduh di sini
+                                    Download here
                                 </a>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ export default function Portfolio() {
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="lg:max-w-lg">
-                        <p className="text-base font-semibold leading-7 text-indigo-600">Portofolio #1</p>
+                        <p className="text-base font-semibold leading-7 text-indigo-600">Portfolio #1</p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Desain Interaksi untuk Laman Utama dan Laman Asesmen pada Situs Kuliah ITB dengan Pendekatan <i>User-Centered Design</i></h1>
                         <p className="mt-6 text-xl leading-8 text-gray-700">
                             Judul di atas terambil dari judul skripsi saya untuk menyelesaikan studi Sarjana (S-1) Teknik Informatika di Institut Teknologi Bandung (ITB). 
