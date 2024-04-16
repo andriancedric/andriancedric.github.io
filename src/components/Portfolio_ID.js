@@ -5,7 +5,7 @@ import {ClockIcon, TableCellsIcon, UserIcon, PencilSquareIcon, BriefcaseIcon} fr
 import React from "react";
 
 
-export default function Portfolio() {
+export default function Portfolio_ID() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (

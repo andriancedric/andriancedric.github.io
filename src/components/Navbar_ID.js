@@ -6,11 +6,11 @@ import React from "react";
 // import DemoImage from '..../public/Sports App.png'
 
 const navigation = [
-    { name: 'Home', href: '/en' },
-    { name: 'Portfolio', href: '/en/portfolio' },
-    { name: 'Certificate', href: '/en/certificate' },
-    { name: 'Experience', href: '/en/experience' },
-    { name: 'Contact', href: '/en/contact' },
+    { name: 'Home', href: '/' },
+    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Certificate', href: '/certificate' },
+    { name: 'Experience', href: '/experience' },
+    { name: 'Contact', href: '/contact' },
 ]
 
 // import { ArrowRightIcon } from "@heroicons/react/solid";

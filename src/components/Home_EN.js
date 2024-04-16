@@ -6,7 +6,7 @@ import React from "react";
 // import DemoImage from '..../public/Sports App.png'
 
 
-export default function Home() {
+export default function Home_EN() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
@@ -84,7 +84,7 @@ export default function Home() {
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
                             <p className="text-base font-semibold leading-7 text-indigo-600">Hello, it's me, Andrian!</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Passionate to create simply, useful, and effective designs.</h1>
+                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Passionate to create simple, useful, and effective designs.</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
                                 A young man who love with UI/UX design. For now, I live in Jakarta and work at <a href="https://moonlay.com" className="font-bold hover:italic">Moonlay Technologies</a> as UI/UX Designer (#Moonlayers).
                             </p>
