@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import {ClockIcon, TableCellsIcon, UserIcon, PencilSquareIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
+// import { Dialog } from '@headlessui/react'
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import {ClockIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
 import React from "react";
 
 export default function Experience() {
@@ -138,7 +138,7 @@ export default function Experience() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>

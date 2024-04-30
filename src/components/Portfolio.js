@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+// import { Dialog } from '@headlessui/react'
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {ClockIcon, TableCellsIcon, UserIcon, PencilSquareIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
 import React from "react";
 
@@ -39,14 +39,14 @@ export default function Portfolio() {
                                 </p>
 
                             </div>
-                            <div className = "py-4">
+                            {/* <div className = "py-4">
                                 <a
                                     href="#"
                                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                     >
                                     Download here
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                         </div>
                         {/* <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -116,7 +116,7 @@ export default function Portfolio() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -159,7 +159,7 @@ export default function Portfolio() {
                         <div className = "py-4">
                             <a
                                 href="https://www.figma.com/proto/L5Yhp1RVNveW1ELMX1TAKA/Tugas-Akhir-Andrian-Dekstop-ver-2?page-id=0%3A1&scaling=scale-down&node-id=1%3A2"
-                                target="_blank"
+        
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 Desktop prototype
@@ -168,7 +168,7 @@ export default function Portfolio() {
                         <div className = "py-2">
                             <a
                                 href="https://www.figma.com/proto/2S5HbeRJunzOguPd1pQu3j/Tugas-Akhir-Andrian-Mobile-ver-2?page-id=0%3A1&node-id=1%3A2&viewport=303%2C1434%2C0.15470626950263977&scaling=scale-down"
-                                target="_blank"
+        
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 Mobile prototype
@@ -233,7 +233,7 @@ export default function Portfolio() {
                     <img
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                         src={require('../img/JHTC.png')}
-                        alt="John Hi-Tech Contrindo Image"
+                        alt="John Hi-Tech Contrindo"
                     />
                     </div>
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -245,7 +245,7 @@ export default function Portfolio() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -288,7 +288,7 @@ export default function Portfolio() {
                         <div className = "py-4">
                             <a
                                 href="https://www.figma.com/file/DGbFRdETo7oxD4h43V59ZK/John-Hi-Tech-Contrindo?node-id=213%3A27&t=tUBQ1nLZKLYuQQVa-1"
-                                target="_blank"
+        
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 Prototipe desktop dan <i>mobile</i>
@@ -357,7 +357,7 @@ export default function Portfolio() {
                     <img
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                         src={require('../img/TGHK.png')}
-                        alt="John Hi-Tech Contrindo Image"
+                        alt="The Gamelan in Hong Kong"
                     />
                     </div>
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -369,7 +369,7 @@ export default function Portfolio() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -412,7 +412,7 @@ export default function Portfolio() {
                         <div className = "py-4">
                             <a
                                 href="https://thegamelaninhk.com"
-                                target="_blank"
+        
                                 className="disabled rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 Situs web (sedang tidak tersedia)
@@ -479,7 +479,7 @@ export default function Portfolio() {
                     <img
                         className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                         src={require('../img/Incodesia 1.png')}
-                        alt="John Hi-Tech Contrindo Image"
+                        alt="Incodesia"
                     />
                     </div>
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -491,7 +491,7 @@ export default function Portfolio() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -534,7 +534,7 @@ export default function Portfolio() {
                         <div className = "py-4">
                             <a
                                 href="https://www.figma.com/file/Kdd4XtXSPHGrWiX8uqFzqQ/Incodesia?type=design&node-id=0%3A1&t=PBRijqccaVTw8ByF-1"
-                                target="_blank"
+        
                                 className="disabled rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 Prototipe <i>mobile</i>

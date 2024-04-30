@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import {ClockIcon, TableCellsIcon, UserIcon, PencilSquareIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
+// import { Dialog } from '@headlessui/react'
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import {ClockIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
 import React from "react";
 
 export default function Certificate() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <section id="certificate">
@@ -146,7 +146,7 @@ export default function Certificate() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -166,7 +166,6 @@ export default function Certificate() {
                         <div className = "py-4">
                             <a
                                 href="https://coursera.org/verify/professional-cert/REKJ3HLTVE2A"
-                                target="_blank"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 View credential here
@@ -250,7 +249,7 @@ export default function Certificate() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -270,7 +269,6 @@ export default function Certificate() {
                         <div className = "py-4">
                             <a
                                 href="https://coursera.org/verify/professional-cert/REKJ3HLTVE2A"
-                                target="_blank"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 View credential here
@@ -354,7 +352,7 @@ export default function Certificate() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -374,7 +372,6 @@ export default function Certificate() {
                         <div className = "py-4">
                             <a
                                 href="https://drive.google.com/file/d/1wwSiAgcBsp3XeeNGAbrhrvQ6s3rf1SQS/view?usp=sharing"
-                                target="_blank"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 View certificate here
@@ -454,7 +451,7 @@ export default function Certificate() {
                             erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                             semper sed amet vitae sed turpis id.
                         </p> */}
-                        <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                        <ul className="mt-8 space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                             <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                             <span>
@@ -474,7 +471,6 @@ export default function Certificate() {
                         <div className = "py-4">
                             <a
                                 href="https://drive.google.com/file/d/1IQcH-9bFk1aWM9g2FEScfFpHomLrt6uc/view?usp=sharing"
-                                target="_blank"
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                 View certificate here
