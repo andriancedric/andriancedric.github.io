@@ -152,7 +152,7 @@ export default function Experience() {
                             </span>
                             </li>
                         </ul>
-                        <p className="mt-8">
+                        {/* <p className="mt-8">
                             Watch the video by clicking button below or play on video player.
                         </p>
                         <div className = "py-4">
@@ -163,7 +163,7 @@ export default function Experience() {
                                 >
                                Watch video
                             </a>
-                        </div>
+                        </div> */}
                                     {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
                         <p className="mt-6">
                             Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
