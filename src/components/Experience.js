@@ -5,7 +5,7 @@ import {ClockIcon, BriefcaseIcon} from '@heroicons/react/20/solid'
 import React from "react";
 
 export default function Experience() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <section id="certificate">

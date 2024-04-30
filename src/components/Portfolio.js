@@ -6,7 +6,7 @@ import React from "react";
 
 
 export default function Portfolio() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <section id="portfolio">
