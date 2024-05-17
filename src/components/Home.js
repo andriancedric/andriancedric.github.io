@@ -11,7 +11,6 @@ export default function Home() {
 
     return (
         <section id="home">
-            <div className="bg-grey">
 
                 {/* Kode untuk isi dari hero section*/}                  
                 <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -27,15 +26,16 @@ export default function Home() {
                         }}
                     />
                     </div>
-                    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-                    <div className="text-left">
-                        <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                        Andrian Cedric
+                    <div class="flex flex-col items-start ml-16 mr-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                        <h2 class="text-4xl mt-6 leading-8 text-gray-1000">
+                            Hello, I'm
+                        </h2>
+                        <h1 class="text-8xl font-bold tracking-tight text-gray-900 sm:text-8xl">
+                            Andrian Cedric
                         </h1>
-                        <p className="text-2xl mt-6 leading-8 text-gray-1000">
-                        UI/UX Designer
+                        <p class="text-2xl mt-6 leading-8 text-gray-1000">
+                             A young man who love with UI/UX design. For now, I live in Jakarta and work at <a href="https://moonlay.com" className="font-bold hover:italic">Moonlay Technologies</a> as UI/UX Designer (#Moonlayers).
                         </p>
-                    </div>
                     </div>
                     <div
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
@@ -52,33 +52,8 @@ export default function Home() {
                 </div>
                 
                 {/* Kode untuk isi dari section introduction*/}  
-                <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-                    <div className="absolute inset-0 -z-10 overflow-hidden">
-                        {/* <svg
-                        className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-                        aria-hidden="true"
-                        >
-                        <defs>
-                            <pattern
-                            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                            width={200}
-                            height={200}
-                            x="50%"
-                            y={-1}
-                            patternUnits="userSpaceOnUse"
-                            >
-                            <path d="M100 200V.5M.5 .5H200" fill="none" />
-                            </pattern>
-                        </defs>
-                        <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
-                            <path
-                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                            strokeWidth={0}
-                            />
-                        </svg>
-                        <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
-                        </svg> */}
-                    </div>
+                {/* <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
                         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                         <div className="lg:pr-4">
@@ -103,10 +78,8 @@ export default function Home() {
                             />
                         </div>
                     </div>
-                </div>
-                
-
-            </div>
+                </div> */}
+            
         </section>
 );
 }
