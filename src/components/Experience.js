@@ -29,9 +29,9 @@ export default function Experience() {
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
                                 <p className="text-base font-semibold leading-7 text-indigo-600">Experience</p>
-                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Learn and teach. Knowledge is for everyone.</h1>
+                                <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Keep learning, keep growing.</h1>
                                 <p className="mt-6 text-xl leading-8 text-gray-800">
-                                In this page, you will see my obtained certificates, i.e. professional, class, internship, or speaker certificates.
+                                I believe that we live to learn and grow. In this page, you will see my adventures to obtain experiences outside my job role. 
                                 </p>
                                 {/* <p className="mt-6 max-w-xl text-base leading-7 text-gray-800 lg:max-w-lg">
                                     Portofolio dalam versi PDF dapat diunduh di sini.
@@ -61,8 +61,8 @@ export default function Experience() {
                         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                             <img
                                 className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                                src={require('../img/Sports App.png')}
-                                alt="Sports App Exploration Design"
+                                src={require('../img/Experience Videographer.jpg')}
+                                alt="A shot of taking video for RFID project by Moonlay"
                             />
                         </div>
                     <div

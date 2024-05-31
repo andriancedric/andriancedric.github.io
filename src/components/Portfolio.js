@@ -201,12 +201,12 @@ export default function Portfolio() {
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="lg:max-w-lg">
-                        <p className="text-base font-semibold leading-7 text-indigo-600">Portofolio #2</p>
+                        <p className="text-base font-semibold leading-7 text-indigo-600">Portfolio #2</p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">John Hi-Tech Contrindo</h1>
                         <p className="mt-6 text-xl leading-8 text-gray-700">
-                            Sebuah perusahaan yang bergerak di bidang manufaktur untuk bahan-bahan kimia dalam konstruksi, khususnya semen dan beton. 
-                            Perusahaan menginginkan untuk melakukan pembaruan pada desain website mereka, termasuk tampilan responsif pada mobile. 
-                            Desain website disesuaikan dengan palet warna dan kebutuhan yang diberikan oleh perusahaan.
+                            A company engaged in the manufacturing of construction chemicals, especially cement and concrete. 
+                            The company wanted to update their website design, including mobile responsive display. 
+                            The website design is adjusted to the color palette and needs provided by the company.
                         </p>
                         </div>
                     </div>
@@ -324,13 +324,13 @@ export default function Portfolio() {
                         <p className="text-base font-semibold leading-7 text-indigo-600">Portofolio #3</p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Gamelan in Hong Kong</h1>
                         <p className="mt-6 text-xl leading-8 text-gray-700">
-                        Sebuah konser pementasan budaya Indonesia 
-                        yang diinisasi dan dipimpin oleh Lauryn Vania Kurniawan, mahasiswi asal Indonesia di Hong 
-                        Kong Baptist University (HKBU). Konser ini bertujuan untuk memperkenalkan budaya 
-                        Indonesia yang begitu kaya dan beragam kepada khalayak di Hong Kong. Situs web TGHK 
-                        diinginkan oleh Lauryn untuk menjadi dokumentasi daring dari konser yang telah 
-                        berlangsung pada tahun 2022. Situs web didesain oleh Lauryn dan rekannya, Sharon, 
-                        kemudian dikembangkan dengan pengembang situs web WordPress.
+                        A concert performance of Indonesian culture 
+                        initiated and led by Lauryn Vania Kurniawan, an Indonesian student at Hong Kong 
+                        Kong Baptist University (HKBU). The concert aims to introduce the rich and diverse culture of 
+                        Indonesia's rich and diverse culture to audiences in Hong Kong. TGHK website 
+                        Lauryn wanted the TGHK website to be an online documentation of the concert, which has been 
+                        taking place in 2022. The website was designed by Lauryn and her partner Sharon, 
+                        and then developed with WordPress website developer.
                         </p>
                         </div>
                     </div>
@@ -449,10 +449,10 @@ export default function Portfolio() {
                         <p className="text-base font-semibold leading-7 text-indigo-600">Portofolio #4</p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Incodesia</h1>
                         <p className="mt-6 text-xl leading-8 text-gray-700">
-                        Sebuah ide bisnis yang dicetuskan untuk berpartisipasi dalam lomba Pengembangan Bisnis TIK oleh GEMASTIK XIII (2020). 
-                        Ide dari bisnis ini adalah menjadi wadah bagi para mahasiswa untuk mencari proyek yang ditawarkan oleh project manager 
-                        sebagai pekerjaan freelance mereka. Selain itu, untuk meningkatkan mutu para freelancer, Incodesia juga bekerja sama 
-                        dengan startup akademi untuk memberi pelatihan bagi para freelancer.
+                        A business idea that was created to participate in the ICT Business Development competition by GEMASTIK XIII (2020). 
+                        The idea of this business is to be a place for students to find projects offered by project managers as their freelance work. 
+                        as their freelance work. In addition, to improve the quality of freelancers, Incodesia also collaborates with startup academies to provide training for freelancers. 
+                        with startup academies to provide training for freelancers.
                         </p>
                         </div>
                     </div>
